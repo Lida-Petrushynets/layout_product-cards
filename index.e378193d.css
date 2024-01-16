@@ -1,0 +1,122 @@
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background: url("star.fa806e3c.svg") center no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.stars > .stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars--0 > .stars__star:nth-child(-n), .stars--1 > .stars__star:nth-child(-n+1), .stars--2 > .stars__star:nth-child(-n+2), .stars--3 > .stars__star:nth-child(-n+3), .stars--4 > .stars__star:nth-child(-n+4), .stars--5 > .stars__star:nth-child(-n+5) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+.product {
+  box-sizing: border-box;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  width: 200px;
+  padding-inline: 16px;
+  font-family: Roboto, sans-serif;
+}
+
+.product__image {
+  margin-inline: auto;
+  width: 160px;
+  height: 134px;
+  margin-top: 32px;
+  display: block;
+}
+
+.product__title {
+  color: #060b35;
+  margin-block: 0;
+  margin-top: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.product__code {
+  color: #616070;
+  margin-block: 0;
+  margin-top: 4px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.product__rating {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  display: flex;
+}
+
+.product__review {
+  color: #060b35;
+  text-align: right;
+  margin-block: 0;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.product__price {
+  margin-block: 0;
+  justify-content: space-between;
+  margin-top: 24px;
+  display: flex;
+}
+
+.product__price-text {
+  color: #616070;
+  margin-block: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.product__cost {
+  color: #060b35;
+  margin-block: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.product__buy {
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  background: #00acdc;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+.product__buy:hover {
+  box-sizing: border-box;
+  color: #00acdc;
+  background: none;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.e378193d.css.map */
